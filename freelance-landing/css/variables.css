@@ -1,0 +1,74 @@
+/* ============================================================
+   DESIGN TOKENS
+   Edit this file to retheme the entire site.
+   ============================================================ */
+
+:root {
+  /* ----- Color Palette ----- */
+  --bg-primary:    #06060a;
+  --bg-secondary:  #09090f;
+  --bg-card:       #0d0d1a;
+  --bg-card-hover: #111124;
+
+  --blue-bright:   #2563eb;
+  --blue-glow:     #3b82f6;
+  --blue-dim:      #1e3a8a;
+  --blue-subtle:   rgba(37, 99, 235, 0.08);
+  --blue-border:   rgba(59, 130, 246, 0.18);
+  --blue-border-h: rgba(59, 130, 246, 0.45);
+
+  --text-primary:   #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-muted:     #64748b;
+
+  --success: #22c55e;
+  --error:   #ef4444;
+
+  /* ----- Typography ----- */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* ----- Spacing Scale (multiples of 0.25rem) ----- */
+  --sp-1:  0.25rem;
+  --sp-2:  0.5rem;
+  --sp-3:  0.75rem;
+  --sp-4:  1rem;
+  --sp-5:  1.25rem;
+  --sp-6:  1.5rem;
+  --sp-8:  2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  /* ----- Layout ----- */
+  --max-width:      1200px;
+  --nav-height:     68px;
+  --section-py:     clamp(4.5rem, 9vw, 7.5rem);
+  --container-px:   clamp(1.25rem, 5vw, 2.5rem);
+
+  /* ----- Border Radius ----- */
+  --r-sm:  6px;
+  --r-md:  12px;
+  --r-lg:  20px;
+  --r-xl:  28px;
+  --r-full: 9999px;
+
+  /* ----- Shadows ----- */
+  --shadow-card: 0 4px 32px rgba(0, 0, 0, 0.5);
+  --shadow-blue: 0 0 40px rgba(37, 99, 235, 0.18);
+  --glow-blue:   0 0 0 1px var(--blue-border), 0 0 24px rgba(59, 130, 246, 0.12);
+
+  /* ----- Transitions ----- */
+  --ease:       cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out:   cubic-bezier(0, 0, 0.2, 1);
+  --t-fast:     0.15s var(--ease);
+  --t-base:     0.25s var(--ease);
+  --t-slow:     0.5s  var(--ease-out);
+  --t-reveal:   0.65s var(--ease-out);
+
+  /* ----- Breakpoints (mirrored in main.js) ----- */
+  /* mobile:  <= 767px  */
+  /* tablet:  768-1023px */
+  /* desktop: >= 1024px  */
+}
